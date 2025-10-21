@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects – Filip Najdoski</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/65cbbdc0a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="nav-brand"><a href="index.html">Filip Najdoski</a></div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section page-header">
+        <h1>Projects</h1>
+        <p class="section-text">Here are some of my favourite software projects. Each one challenged me to learn something new and deliver a functional solution.</p>
+    </section>
+    <section class="projects section">
+        <div class="project-grid detailed">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x200?text=Project" alt="Lightning Migration" class="project-img">
+                <div class="project-info">
+                    <h3>Classic → Lightning Migration</h3>
+                    <p>I spearheaded the migration of the Milros Salesforce org from Classic to Lightning. The project involved auditing existing customisations, rebuilding UI components with Lightning Web Components, and training end users. We achieved a smoother workflow and a modern look and feel without disrupting business operations.</p>
+                    <div class="tech-stack">Salesforce, Apex, Lightning Web Components, User Training</div>
+                    <a href="#" class="project-link">View on GitHub</a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x200?text=Project" alt="Commission App" class="project-img">
+                <div class="project-info">
+                    <h3>Commission Calculation App</h3>
+                    <p>For a Swiss telecom client, I developed a flexible commission engine that calculates payouts based on dynamic rules. The solution integrates Apex triggers, flows, and Visualforce pages to handle approvals, PDF generation, and complex logic. It reduced manual errors and saved countless hours of processing time.</p>
+                    <div class="tech-stack">Apex, Flows, Visualforce, Integration</div>
+                    <a href="#" class="project-link">View on GitHub</a>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x200?text=Project" alt="Angular Recipe App" class="project-img">
+                <div class="project-info">
+                    <h3>Angular Recipe App</h3>
+                    <p>This academic project is a recipe management platform built with Angular. It allows users to browse, add, edit, and delete recipes. Features include sorting, filtering, detailed ingredient lists, and a statistics dashboard. The API is built with a Node backend and accessed via a dedicated service.</p>
+                    <div class="tech-stack">Angular, TypeScript, Node.js, REST API</div>
+                    <a href="#" class="project-link">View Source</a>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x200?text=Project" alt=".NET Movie API" class="project-img">
+                <div class="project-info">
+                    <h3>.NET Movie API</h3>
+                    <p>I designed and implemented a RESTful API in .NET Core to manage a database of movies, actors, and genres. The project demonstrates layered architecture with controllers, services, repositories, and Entity Framework for database access. It also includes unit and integration tests.</p>
+                    <div class="tech-stack">C#, .NET Core, Entity Framework, Testing</div>
+                    <a href="#" class="project-link">View Source</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <p>&copy; 2025 Filip Najdoski. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
